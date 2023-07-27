@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#script that displays numbers from 1 to 100, if multiple of 3 and 5 print fizzbuzz, if multiple of 3 print fizz, if multiple of 5 print buzz
+
+for k in {1..100}
+do
+if ((k % 3 == 0)) && ((k % 5 == 0)); then
+echo "FizzBuzz"
+elif ((k % 5 == 0)); then
+echo "Buzz"
+elif ((k % 3 == 0)); then
+echo "Fizz"
+else
+echo "$k"
+fi
+done
