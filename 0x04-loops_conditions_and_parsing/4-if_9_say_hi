@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 k=0
 
-while (( k < 10 ))
+while (( k < 11 ))
 do
-  if (( k == 8 ))
+  if (( k == 9 ))
   then
     echo "Hi"
   else
