@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#script that displays Best School 10times using until
+
+k="0"
+
+until (( k >= 10 ))
+do
+  echo "Best School"
+  ((k++))
+done
