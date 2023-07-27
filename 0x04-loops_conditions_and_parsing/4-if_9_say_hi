@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
+#script that prints Best School 10 times but between 8 and 10 we add hi
+
 k=0
 
-while (( k < 10 ))
+while (( k < 11 ))
 do
-  if [ $k -ne "8" ]; then
-    echo "Best School"
-  else
-    echo "Best School"
-    echo "Hi"
-  fi
-  k=$((k + 1))
+	if (( k == 9 ))
+	then
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	((k++))
 done
