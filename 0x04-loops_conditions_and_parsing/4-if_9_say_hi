@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 k=0
 
-while (( k < 11 ))
+while (( k < 10 ))
 do
-  if (( k == 9 ))
-  then
-    echo "Hi"
+  if [ $k -ne "8" ]; then
+    echo "Best School"
   else
     echo "Best School"
+    echo "Hi"
   fi
-  ((k++))
+  k=$((k + 1))
 done
