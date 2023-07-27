@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+#script that displays numbers from 1-20, displays 4 then bad luck china, 9 then bad luck japan, 17 then bad luck italy
+
+k="1"
+while (( k <= 20 ))
+do
+case $k in
+4)
+echo "$k"
+echo "bad luck from China"
+;;
+9)
+echo "$k"
+echo "bad luck from Japan"
+;;
+17)
+echo "$k"
+echo "bad luck from Italy"
+;;
+*)
+echo "$k"
+;;
+esac
+((k++))
+done
