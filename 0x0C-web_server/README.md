@@ -24,3 +24,5 @@ NGINX
 -> is a webserver that can also be used as a revers proxy, load balancer, mail proxy and HTTP cache
 
 -> when using the ngix webserver, server blocks can be used to encapsulate configuration details and host more than one domain on a single server
+
+DOMAIN, SUBDOMAIN AND PATHS
