@@ -2,7 +2,7 @@
 #script thatconfigures a brand new ubuntu machine to the requirements
 
 sudo apt-get update
-sudo apt-get -y install nginx
+sudo apt-get -y upgrade
 sudo apt-get -y install nginx
 sudo chown -R "$USER":"$USER" /var/www/
 sudo chown -R "$USER":"$USER" /etc/nginx
