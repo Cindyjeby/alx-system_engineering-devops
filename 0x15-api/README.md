@@ -4,3 +4,7 @@
 <h2>What is a REST API</h2>
 <p>REST is an acronym for Representational State Transfer<br>A REST API is a way for two computer systems to communicate using the HTTP technologies found in web browsersand servers.</p>
 
+<h3>JSON Placehoder code used in the files</h3>
+<p>fetch('https://jsonplaceholder.typicode.com/todos/1')
+      .then(response => response.json())
+      .then(json => console.log(json))</p>
