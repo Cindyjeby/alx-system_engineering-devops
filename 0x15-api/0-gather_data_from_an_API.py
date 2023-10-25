@@ -10,7 +10,7 @@ if __name__ == "__main__":
     url = "https://jsonplaceholder.typicode.com/"
 
     #retrieve user info
-    user_info = requests.get(url + "users/{}".format{sys.argv[1])).json()
+    user = requests.get(url + "users/{}".format{sys.argv[1])).json()
 
     #retrive to do lists
     todos = requests.get(url + "todos", params={"userId": sys.argv[1]}).json()
