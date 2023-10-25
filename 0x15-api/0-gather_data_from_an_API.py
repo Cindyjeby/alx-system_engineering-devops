@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+"""get data from an API"""
 
 import requests
 import sys
+
 
 if __name == "__main__":
     #define rest url
