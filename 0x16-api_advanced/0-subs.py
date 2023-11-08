@@ -4,8 +4,9 @@
 import requests
 
 
-def number of subscribers(subreddit):
-"""queary a subredit and retrive number of subs"""
+def number_of_subscribers(subreddit):
+	"""queary a subredit and retrive number of subs"""
+
 	url = f"https://www.reddit.com/r/{subreddit}/about.json"
 
 	#set a custom user-agent to avoid too many error requests
